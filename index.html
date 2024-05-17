@@ -3,7 +3,7 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>WebStudio</title>
+      <title>Webstudio</title>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       <link
@@ -20,29 +20,29 @@
       <header class="header">
          <nav>
             <a class="logo" href="./index.html"
-               >Web<span class="logo-part">Studio</span></a
+               >Web<span class="logo-web">Studio</span></a
             >
-            <ul>
+            <ul class="navigation">
                <li>
-                  <a class="nav-link" href="#">Studio</a>
+                  <a class="navigation-menu" href="./index.html">Studio</a>
                </li>
                <li>
-                  <a class="nav-link" href="#">Portfolio</a>
+                  <a class="navigation-menu" href="">Portfolio</a>
                </li>
                <li>
-                  <a class="nav-link" href="#">Contacts</a>
+                  <a class="navigation-menu" href="">Contacts</a>
                </li>
             </ul>
          </nav>
          <address class="address">
-            <ul>
+            <ul class="address-mail-tel">
                <li>
-                  <a class="address-link" href="mailto:info@devstudio.com"
+                  <a class="address-info" href="mailto:info@devstudio.com"
                      >info@devstudio.com</a
                   >
                </li>
                <li>
-                  <a class="address-link" href="tel:+110001111111"
+                  <a class="address-info" href="tel:+110001111111"
                      >+11 (000) 111-11-11</a
                   >
                </li>
@@ -50,153 +50,157 @@
          </address>
       </header>
       <main>
-         <section>
-            <h1>Effective Solutions for Your Business</h1>
-            <button type="button">Order Service</button>
+         <section class="section-oun">
+            <h1 class="title">Effective Solutions<br />for Your Business</h1>
+            <button class="button" type="button">Order Service</button>
          </section>
-         <section class="section-1">
-            <h2>features</h2>
+         <section>
+            <h2 hidden="">Our advantages</h2>
             <ul>
                <li>
-                  <h3 class="section-1-title">Strategy</h3>
-                  <p class="section-1-text">
+                  <h3 class="title-strategy">Strategy</h3>
+                  <p class="strategy-text">
                      Our goal is to identify the business problem to walk away
                      with the perfect and creative solution.
                   </p>
                </li>
                <li>
-                  <h3 class="section-1-title">Punctuality</h3>
-                  <p class="section-1-text">
+                  <h3 class="strategy-titel">Punctuality</h3>
+                  <p class="strategy-text">
                      Bring the key message to the brand's audience for the best
                      price within the shortest possible time.
                   </p>
                </li>
                <li>
-                  <h3 class="section-1-title">Diligence</h3>
-                  <p class="section-1-text">
+                  <h3 class="strategy-titel">Diligence</h3>
+                  <p class="strategy-text">
                      Research and confirm brands that present the strongest
                      digital growth opportunities and minimize risk.
                   </p>
                </li>
                <li>
-                  <h3 class="section-1-title">Technologies</h3>
-                  <p class="section-1-text">
+                  <h3 class="strategy-titel">Technologies</h3>
+                  <p class="strategy-text">
                      Design practice focused on digital experiences. We bring
                      forth a deep passion for problem-solving.
                   </p>
                </li>
             </ul>
          </section>
-         <section class="section-2">
-            <h2 class="our-team">Our Team</h2>
+         <section class="our-team">
+            <h2 class="our-team-title">Our Team</h2>
             <ul>
-               <li>
-                  <div class="employee"></div>
+               <li class="our-team-card">
                   <img
+                     class="img-team"
                      src="./images/imgmark.jpg"
                      alt="Mark Guerrero"
                      width="264"
                   />
-                  <h3 class="team-card">Mark Guerrero</h3>
-                  <p class="team-card-text">Product Designer</p>
+                  <h3 class="team-name">Mark Guerrero</h3>
+                  <p class="team-info">Product Designer</p>
                </li>
-               <li>
-                  <div class="employee"></div>
-                  <img src="./images/imgtom.jpg" alt="Tom Ford" width="264" />
-                  <h3 class="team-card">Tom Ford</h3>
-                  <p class="team-card-text">Frontend Developer</p>
-               </li>
-               <li>
-                  <div class="employee"></div>
+               <li class="our-team-card">
                   <img
+                     class="img-team"
+                     src="./images/imgtom.jpg"
+                     alt="Tom Ford"
+                     width="264"
+                  />
+                  <h3 class="team-name">Tom Ford</h3>
+                  <p class="team-info">Frontend Developer</p>
+               </li>
+               <li class="our-team-card">
+                  <img
+                     class="img-team"
                      src="./images/imgcamila.jpg"
                      alt="Camila Garcia"
                      width="264"
                   />
-                  <h3 class="team-card">Camila Garcia</h3>
-                  <p class="team-card-text">Marketing</p>
+                  <h3 class="team-name">Camila Garcia</h3>
+                  <p class="team-info">Marketing</p>
                </li>
-               <li>
-                  <div class="employee"></div>
+               <li class="our-team-card">
                   <img
+                     class="img-team"
                      src="./images/imgdaniel.jpg"
                      alt="Daniel Wilson"
                      width="264"
                   />
-                  <h3 class="team-card">Daniel Wilson</h3>
-                  <p class="team-card-text">UI Designer</p>
+                  <h3 class="team-name">Daniel Wilson</h3>
+                  <p class="team-info">UI Designer</p>
                </li>
             </ul>
          </section>
-         <section class="section-3">
-            <h2 class="our-portfolio">Our Portfolio</h2>
+         <section>
+            <h2 class="portfolio-title">Our Portfolio</h2>
             <ul>
-               <li>
+               <li class="our-portfolio-card">
                   <img
-                     src="/goit-markup-hw-02/images/Banking.jpg"
-                     alt="Banking App"
+                     class="img-works"
+                     src="./images/Banking.jpg"
+                     alt="Banking"
                      width="360"
-                     height="300"
                   />
-                  <a class="project-card-link" href="">Banking App</a>
-                  <p class="project-text">App</p>
+                  <h3 class="works-title">Banking App</h3>
+                  <p class="works-info">App</p>
                </li>
-               <li>
+               <li class="our-portfolio-card">
                   <img
-                     src="/goit-markup-hw-02/images/Payment.jpg"
-                     alt="Cashless Payment"
+                     class="img-works"
+                     src="./images/Payment.jpg"
+                     alt="Payment"
                      width="360"
-                     height="300"
                   />
-                  <a class="project-card-link" href="">Cashless Payment</a>
-                  <p class="project-text">Marketing</p>
+                  <h3 class="works-title">Cashless Payment</h3>
+                  <p class="works-info">Marketing</p>
                </li>
-               <li>
+               <li class="our-portfolio-card">
                   <img
-                     src="/goit-markup-hw-02/images/Meditation.jpg"
-                     alt="Meditation App"
+                     class="img-works"
+                     src="./images/Meditation.jpg"
+                     alt="Meditation"
                      width="360"
-                     height="300"
                   />
-                  <a class="project-card-link" href="">Meditation App</a>
-                  <p class="project-text">App</p>
+                  <h3 class="works-title">Meditation App</h3>
+                  <p class="works-info">App</p>
                </li>
-               <li>
+               <li class="our-portfolio-card">
                   <img
-                     src="/goit-markup-hw-02/images/Taxi.jpg"
-                     alt="Taxi Service"
+                     class="img-works"
+                     src="./images/Taxi.jpg"
+                     alt="Taxi"
                      width="360"
-                     height="300"
                   />
-                  <a class="project-card-link" href="">Taxi Service</a>
-                  <p class="project-text">Marketing</p>
+                  <h3 class="works-title">Taxi Service</h3>
+                  <p class="works-info">Marketing</p>
                </li>
-               <li>
+               <li class="our-portfolio-card">
                   <img
-                     src="/goit-markup-hw-02/images/Illustrations.jpg"
-                     alt="Screen Illustrations"
+                     class="img-works"
+                     src="./images/Illustrations.jpg"
+                     alt="Illustrations"
                      width="360"
-                     height="300"
                   />
-                  <a class="project-card-link" href="">TScreen Illustrations</a>
-                  <p class="project-text">Design</p>
+                  <h3 class="works-title">Screen Illustrations</h3>
+                  <p class="works-info">Design</p>
                </li>
-               <li>
+               <li class="our-portfolio-card">
                   <img
-                     src="/goit-markup-hw-02/images/Courses.jpg"
-                     alt="Online Courses"
+                     class="img-works"
+                     src="./images/Courses.jpg"
+                     alt="Courses"
                      width="360"
-                     height="300"
                   />
-                  <a class="project-card-link" href="">Online Courses</a>
-                  <p class="project-text">Marketing</p>
+                  <h3 class="works-title">Online Courses</h3>
+                  <p class="works-info">Marketing</p>
                </li>
             </ul>
          </section>
       </main>
       <footer class="footer">
-         <a class="logo" href="./index.html"
-            >Web<span class="logo-part">Studio</span></a
+         <a class="h-logo-f" href="./index.html"
+            >Web<span class="logo-web-f">Studio</span></a
          >
          <p class="footer-text">
             Increase the flow of customers and sales for your business with
