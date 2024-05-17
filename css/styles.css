@@ -22,7 +22,7 @@ a {
    font-family: "Raleway", sans-serif;
    font-weight: 700;
    font-size: 18px;
-   line-height: 1, 17;
+   line-height: 1.17;
    letter-spacing: 0.03em;
    text-transform: uppercase;
    color: #4d5ae5;
@@ -34,7 +34,7 @@ a {
 .nav-ul-studio-a {
    font-weight: 500;
    font-size: 16px;
-   line-height: 150%;
+   line-height: 1.5;
    letter-spacing: 0.02em;
    color: #2e2f42;
 }
@@ -58,7 +58,7 @@ a {
 .address-mail-tel {
    font-weight: 400;
    font-size: 16px;
-   line-height: 150%;
+   line-height: 1.5;
    letter-spacing: 0.02em;
    color: #434455;
 }
@@ -72,7 +72,7 @@ a {
    font-family: "Roboto", sans-serif;
    font-weight: 700;
    font-size: 56px;
-   line-height: 107%;
+   line-height: 1.07;
    letter-spacing: 0.02em;
    text-align: center;
    color: #fff;
@@ -91,17 +91,17 @@ a {
    background-color: #404bbf;
 }
 /* --section two-- */
-.strategy-titel {
+.items-title {
    font-weight: 500;
    font-size: 20px;
-   line-height: 120%;
+   line-height: 1.2;
    letter-spacing: 0.02em;
    color: #2e2f42;
 }
 .strategy-text {
    font-weight: 400;
    font-size: 16px;
-   line-height: 150%;
+   line-height: 1.5;
    letter-spacing: 0.02em;
    color: #434455;
 }
@@ -113,7 +113,7 @@ a {
 .our-team-title {
    font-weight: 700;
    font-size: 36px;
-   line-height: 111%;
+   line-height: 1.11;
    letter-spacing: 0.02em;
    text-align: center;
    text-transform: capitalize;
@@ -128,7 +128,7 @@ a {
 .team-name {
    font-weight: 500;
    font-size: 20px;
-   line-height: 120%;
+   line-height: 1.2;
    letter-spacing: 0.02em;
 
    color: #2e2f42;
@@ -136,7 +136,7 @@ a {
 .team-info {
    font-weight: 400;
    font-size: 16px;
-   line-height: 150%;
+   line-height: 1.5;
    letter-spacing: 0.02em;
 
    color: #434455;
@@ -146,7 +146,7 @@ a {
    font-family: "Roboto", sans-serif;
    font-weight: 700;
    font-size: 36px;
-   line-height: 111%;
+   line-height: 1.11;
    letter-spacing: 0.02em;
    text-align: center;
    text-transform: capitalize;
@@ -158,14 +158,14 @@ a {
 .works-title {
    font-weight: 500;
    font-size: 20px;
-   line-height: 120%;
+   line-height: 1.2;
    letter-spacing: 0.02em;
    color: #2e2f42;
 }
 .works-info {
    font-weight: 400;
    font-size: 16px;
-   line-height: 150%;
+   line-height: 1.5;
    letter-spacing: 0.02em;
    color: #434455;
 }
@@ -179,7 +179,7 @@ a {
 .footer-text {
    font-weight: 400;
    font-size: 16px;
-   line-height: 150%;
+   line-height: 1.5;
    letter-spacing: 0.02em;
    color: #f4f4fd;
 }
